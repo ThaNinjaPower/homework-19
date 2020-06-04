@@ -13,16 +13,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Employees cards={employeeList.map(employee=>
-        <EmployeeCard
-          key={employee.id}
-          img={employee.img}
-          name={employee.name}
-          role={employee.role}
-          salary={employee.salary}
-          description={employee.description}
-        />)}
-      />
+      <Employees/>
     </div>
   );
 }
