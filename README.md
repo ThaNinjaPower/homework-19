@@ -2,11 +2,11 @@
 This app allows the user to filter and sort (not yet implemented) through the employee list directory by name or role (not yet implemented).
 
 ## Table of Contents
-[Installation](#installation)
-[Usage](#usage)
-[Credits](#credits)
-[License](#license)
-[Contributing](#contributing)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Contributing](#contributing)
 
 ## Installation
 No installation required. Simply follow [this link](https://peaceful-sea-95092.herokuapp.com/).
