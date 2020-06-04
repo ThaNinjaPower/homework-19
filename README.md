@@ -1,5 +1,5 @@
 # Homework 19: Employee Tracker App
-This app allows the user to filter and sort(not yet implemented) through the employee list directory by name or role(not yet implemented).
+This app allows the user to filter and sort (not yet implemented) through the employee list directory by name or role (not yet implemented).
 
 ## Table of Contents
 [Installation](#installation)
@@ -9,10 +9,10 @@ This app allows the user to filter and sort(not yet implemented) through the emp
 [Contributing](#contributing)
 
 ## Installation
-No installation required. Simply follow this link.
+No installation required. Simply follow [this link](https://peaceful-sea-95092.herokuapp.com/).
 
 ## Usage
-1. Open the Heroku link.
+1. Open the [Heroku link](https://peaceful-sea-95092.herokuapp.com/).
 2. The user is then greeted with the list of employees in cards. To filter the cards by name, type the desired name in the search bar. The name will automatically be searched looking for the employee name.
 
 ## Credits
