@@ -2,30 +2,6 @@ import React, { Component } from "react";
 import employeeList from "../../data/employeeList";
 
 class Navbar extends Component {
-    state = {
-        search: "",
-        sortBy: "",
-        alteredList: employeeList,
-        sorted: false
-    }
-
-    handleSearchChange = event => {
-        console.log("Changing! " + event.target.value);
-        console.log("Employee List: ");
-        console.log(employeeList);
-        this.setState({
-            [event.target.name]: event.target.value,
-            alteredList: employeeList.filter(employee => employee.name.includes(event.target.value))
-        })
-        console.log("Search bar: " + this.state.search);
-        console.log("New list: ");
-        console.log(this.state.alteredList);
-    }
-
-    handlePageChange = event => {
-
-    }
-
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">

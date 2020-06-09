@@ -16,7 +16,7 @@ class Employees extends Component {
         console.log(employeeList);
         this.setState({
             [event.target.name]: event.target.value,
-            alteredList: employeeList.filter(employee => employee.name.includes(event.target.value))
+            alteredList: employeeList.filter(employee => employee.name.toLowerCase().includes(event.target.value.toLowerCase()))
         })
         console.log("Search bar: " + this.state.search);
         console.log("New list: ");
